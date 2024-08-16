@@ -1,12 +1,13 @@
 # Zlick's Reffect Pack
 A [Reffect](https://github.com/Zerthox/gw2-reffect) pack.
 
-Place the .json file inside the `<Guild Wars 2>\addons\reffect\packs` directory.
+## Installation
+Download the [latest version](https://github.com/CaptainZlick/gw2-reffect-pack/releases/latest) and place it inside the `<Guild Wars 2>\addons\reffect\packs` directory.
 
 ## General
 Signets that you have to use are displayed in red if they are no longer on cooldown.
 
-## Default
+### Default
 Always
 * Offensive boons on the left side
 * Defensive boons on the right side
@@ -14,21 +15,21 @@ Always
 
 ![Default](./img/default.png)
 
-## Mesmer
+### Mesmer
 Always
 * Distortion and Blur
 
 ![Mesmer](./img/mesmer.png)
 
-### Virtuoso
+#### Virtuoso
 In Combat
 * Traits (Deadly Blades, Fencer's Finesse, Compounding Power)
 * Signets (Signet of the Ether, Signet of Illusions)
 
 ![Virtuoso](./img/virtuoso.png)
 
-## Necromancer
-### Scourge
+### Necromancer
+#### Scourge
 In Combat
 * Traits (Soul Barbs, Plague Sending)
 * Signets (Signet of Spite)
