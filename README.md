@@ -4,7 +4,7 @@ A [Reffect](https://github.com/Zerthox/gw2-reffect) pack.
 Place the .json file inside the `<Guild Wars 2>\addons\reffect\packs` directory.
 
 ## General
-Signets that you have to use are displayed in red if they no longer are no longer on cooldown.
+Signets that you have to use are displayed in red if they are no longer on cooldown.
 
 ## Default
 Always
