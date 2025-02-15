@@ -1,4 +1,4 @@
-# Zlick's Reffect Pack
+# Basic Boons Reffect Pack
 A [Reffect](https://github.com/Zerthox/gw2-reffect) pack.
 
 ## Installation
