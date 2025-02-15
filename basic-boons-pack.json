@@ -1,7 +1,10 @@
 {
   "schema": "v1",
   "enabled": false,
-  "name": "Zlick's Reffect Pack",
+  "name": "Baisc Boons Pack",
+  "anchor": {
+    "Screen": "Center"
+  },
   "pos": [
     0.0,
     0.0
@@ -14,12 +17,12 @@
       "amount_type": "Intensity"
     }
   },
-  "anchor": "Center",
   "layer": 0,
   "elements": [
     {
       "enabled": true,
       "name": "Boons",
+      "anchor": "Parent",
       "pos": [
         0.0,
         0.0
@@ -36,6 +39,7 @@
         "player": {
           "combat": null,
           "specs": [],
+          "weapons": [],
           "traits": [],
           "mounts": []
         },
@@ -51,6 +55,7 @@
         {
           "enabled": true,
           "name": "Offensive",
+          "anchor": "Parent",
           "pos": [
             -134.0,
             148.0
@@ -67,6 +72,7 @@
             "player": {
               "combat": null,
               "specs": [],
+              "weapons": [],
               "traits": [],
               "mounts": []
             },
@@ -91,11 +97,27 @@
               "name": "Quickness",
               "trigger": {
                 "source": {
-                  "Buff": 1187
+                  "Buff": [
+                    1187
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -109,6 +131,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -119,11 +148,27 @@
               "name": "Alacrity",
               "trigger": {
                 "source": {
-                  "Buff": 30328
+                  "Buff": [
+                    30328
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -137,6 +182,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -147,11 +199,27 @@
               "name": "Might",
               "trigger": {
                 "source": {
-                  "Buff": 740
+                  "Buff": [
+                    740
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -165,6 +233,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -175,11 +250,27 @@
               "name": "Fury",
               "trigger": {
                 "source": {
-                  "Buff": 725
+                  "Buff": [
+                    725
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -193,6 +284,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -203,6 +301,7 @@
         {
           "enabled": true,
           "name": "Defensive",
+          "anchor": "Parent",
           "pos": [
             134.0,
             148.0
@@ -219,6 +318,7 @@
             "player": {
               "combat": null,
               "specs": [],
+              "weapons": [],
               "traits": [],
               "mounts": []
             },
@@ -243,11 +343,27 @@
               "name": "Protection",
               "trigger": {
                 "source": {
-                  "Buff": 717
+                  "Buff": [
+                    717
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -261,6 +377,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -271,7 +394,7 @@
               "name": "Regeneration",
               "trigger": {
                 "source": {
-                  "AnyBuff": [
+                  "Buff": [
                     718,
                     17495,
                     17674
@@ -280,6 +403,20 @@
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -293,6 +430,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -303,11 +447,27 @@
               "name": "Vigor",
               "trigger": {
                 "source": {
-                  "Buff": 726
+                  "Buff": [
+                    726
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -321,6 +481,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -331,11 +498,27 @@
               "name": "Swiftness",
               "trigger": {
                 "source": {
-                  "Buff": 719
+                  "Buff": [
+                    719
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -349,6 +532,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -359,6 +549,7 @@
         {
           "enabled": true,
           "name": "Situational",
+          "anchor": "Parent",
           "pos": [
             0.0,
             284.0
@@ -375,6 +566,7 @@
             "player": {
               "combat": null,
               "specs": [],
+              "weapons": [],
               "traits": [],
               "mounts": []
             },
@@ -399,7 +591,7 @@
               "name": "Resistance",
               "trigger": {
                 "source": {
-                  "AnyBuff": [
+                  "Buff": [
                     26980,
                     69995
                   ]
@@ -407,6 +599,20 @@
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -420,6 +626,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -430,11 +643,27 @@
               "name": "Aegis",
               "trigger": {
                 "source": {
-                  "Buff": 743
+                  "Buff": [
+                    743
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -448,6 +677,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -458,11 +694,27 @@
               "name": "Stability",
               "trigger": {
                 "source": {
-                  "Buff": 1122
+                  "Buff": [
+                    1122
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -476,6 +728,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -486,11 +745,27 @@
               "name": "Resolution",
               "trigger": {
                 "source": {
-                  "Buff": 873
+                  "Buff": [
+                    873
+                  ]
                 },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
                 }
               },
               "icon": {
@@ -504,6 +779,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -516,6 +798,7 @@
     {
       "enabled": true,
       "name": "Mesmer",
+      "anchor": "Parent",
       "pos": [
         0.0,
         0.0
@@ -537,6 +820,7 @@
             "Mirage",
             "Virtuoso"
           ],
+          "weapons": [],
           "traits": [],
           "mounts": []
         },
@@ -552,6 +836,7 @@
         {
           "enabled": true,
           "name": "Profession Skills",
+          "anchor": "Parent",
           "pos": [
             0.0,
             324.0
@@ -568,6 +853,7 @@
             "player": {
               "combat": null,
               "specs": [],
+              "weapons": [],
               "traits": [],
               "mounts": []
             },
@@ -583,6 +869,7 @@
             {
               "enabled": true,
               "name": "Distortion",
+              "anchor": "Parent",
               "pos": [
                 0.0,
                 0.0
@@ -590,7 +877,7 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "AnyBuff": [
+                  "Buff": [
                     10243,
                     10335,
                     40408
@@ -610,6 +897,7 @@
                     "Mirage",
                     "Virtuoso"
                   ],
+                  "weapons": [],
                   "traits": [],
                   "mounts": []
                 },
@@ -632,6 +920,13 @@
               ],
               "zoom": 1.0,
               "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
@@ -646,6 +941,7 @@
         {
           "enabled": true,
           "name": "Virtuoso",
+          "anchor": "Parent",
           "pos": [
             0.0,
             0.0
@@ -664,6 +960,7 @@
               "specs": [
                 "Virtuoso"
               ],
+              "weapons": [],
               "traits": [],
               "mounts": []
             },
@@ -679,6 +976,7 @@
             {
               "enabled": true,
               "name": "Traits",
+              "anchor": "Parent",
               "pos": [
                 38.0,
                 324.0
@@ -695,6 +993,7 @@
                 "player": {
                   "combat": true,
                   "specs": [],
+                  "weapons": [],
                   "traits": [],
                   "mounts": []
                 },
@@ -710,6 +1009,7 @@
                 {
                   "enabled": true,
                   "name": "Damage Modifier",
+                  "anchor": "Parent",
                   "pos": [
                     0.0,
                     0.0
@@ -726,6 +1026,7 @@
                     "player": {
                       "combat": null,
                       "specs": [],
+                      "weapons": [],
                       "traits": [],
                       "mounts": []
                     },
@@ -750,11 +1051,27 @@
                       "name": "Deadly Blades",
                       "trigger": {
                         "source": {
-                          "Buff": 63409
+                          "Buff": [
+                            63409
+                          ]
                         },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
                         }
                       },
                       "icon": {
@@ -768,6 +1085,13 @@
                       ],
                       "zoom": 1.0,
                       "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
                       "conditions": [],
                       "duration_bar": true,
                       "duration_text": false,
@@ -778,11 +1102,27 @@
                       "name": "Fencer's Finesse",
                       "trigger": {
                         "source": {
-                          "Buff": 30426
+                          "Buff": [
+                            30426
+                          ]
                         },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
                         }
                       },
                       "icon": {
@@ -796,6 +1136,13 @@
                       ],
                       "zoom": 1.0,
                       "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
                       "conditions": [],
                       "duration_bar": true,
                       "duration_text": false,
@@ -806,11 +1153,27 @@
                       "name": "Compounding Power",
                       "trigger": {
                         "source": {
-                          "Buff": 49058
+                          "Buff": [
+                            49058
+                          ]
                         },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
                         }
                       },
                       "icon": {
@@ -824,6 +1187,13 @@
                       ],
                       "zoom": 1.0,
                       "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
                       "conditions": [],
                       "duration_bar": true,
                       "duration_text": false,
@@ -836,6 +1206,7 @@
             {
               "enabled": true,
               "name": "Signets",
+              "anchor": "Parent",
               "pos": [
                 0.0,
                 324.0
@@ -852,6 +1223,7 @@
                 "player": {
                   "combat": true,
                   "specs": [],
+                  "weapons": [],
                   "traits": [],
                   "mounts": []
                 },
@@ -867,6 +1239,7 @@
                 {
                   "enabled": true,
                   "name": "Signet of the Ether",
+                  "anchor": "Parent",
                   "pos": [
                     -38.0,
                     0.0
@@ -874,7 +1247,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": 21751
+                      "Buff": [
+                        21751
+                      ]
                     },
                     "threshold": {
                       "threshold_type": "Present",
@@ -885,6 +1260,7 @@
                     "player": {
                       "combat": null,
                       "specs": [],
+                      "weapons": [],
                       "traits": [],
                       "mounts": []
                     },
@@ -907,6 +1283,13 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
                   "conditions": [],
                   "duration_bar": false,
                   "duration_text": false,
@@ -919,6 +1302,7 @@
                 {
                   "enabled": true,
                   "name": "Signet of Illusions",
+                  "anchor": "Parent",
                   "pos": [
                     -76.0,
                     0.0
@@ -926,7 +1310,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": 10246
+                      "Buff": [
+                        10246
+                      ]
                     },
                     "threshold": {
                       "threshold_type": "Present",
@@ -937,6 +1323,7 @@
                     "player": {
                       "combat": null,
                       "specs": [],
+                      "weapons": [],
                       "traits": [],
                       "mounts": []
                     },
@@ -959,6 +1346,13 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
                   "conditions": [],
                   "duration_bar": false,
                   "duration_text": false,
@@ -977,6 +1371,7 @@
     {
       "enabled": true,
       "name": "Necromancer",
+      "anchor": "Parent",
       "pos": [
         0.0,
         0.0
@@ -998,6 +1393,7 @@
             "Scourge",
             "Harbinger"
           ],
+          "weapons": [],
           "traits": [],
           "mounts": []
         },
@@ -1013,6 +1409,7 @@
         {
           "enabled": true,
           "name": "Scourge",
+          "anchor": "Parent",
           "pos": [
             0.0,
             0.0
@@ -1031,6 +1428,7 @@
               "specs": [
                 "Scourge"
               ],
+              "weapons": [],
               "traits": [],
               "mounts": []
             },
@@ -1046,6 +1444,7 @@
             {
               "enabled": true,
               "name": "Traits",
+              "anchor": "Parent",
               "pos": [
                 0.0,
                 324.0
@@ -1062,6 +1461,7 @@
                 "player": {
                   "combat": true,
                   "specs": [],
+                  "weapons": [],
                   "traits": [],
                   "mounts": []
                 },
@@ -1077,6 +1477,7 @@
                 {
                   "enabled": true,
                   "name": "Soul Barbs",
+                  "anchor": "Parent",
                   "pos": [
                     0.0,
                     0.0
@@ -1084,7 +1485,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": 53489
+                      "Buff": [
+                        53489
+                      ]
                     },
                     "threshold": {
                       "threshold_type": "Present",
@@ -1095,6 +1498,7 @@
                     "player": {
                       "combat": null,
                       "specs": [],
+                      "weapons": [],
                       "traits": [],
                       "mounts": []
                     },
@@ -1117,6 +1521,13 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
                   "conditions": [],
                   "duration_bar": true,
                   "duration_text": false,
@@ -1129,6 +1540,7 @@
                 {
                   "enabled": true,
                   "name": "Plague Sending",
+                  "anchor": "Parent",
                   "pos": [
                     38.0,
                     0.0
@@ -1136,7 +1548,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": 46832
+                      "Buff": [
+                        46832
+                      ]
                     },
                     "threshold": {
                       "threshold_type": "Present",
@@ -1147,6 +1561,7 @@
                     "player": {
                       "combat": null,
                       "specs": [],
+                      "weapons": [],
                       "traits": [],
                       "mounts": []
                     },
@@ -1169,6 +1584,13 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
                   "conditions": [],
                   "duration_bar": true,
                   "duration_text": false,
@@ -1183,6 +1605,7 @@
             {
               "enabled": true,
               "name": "Signets",
+              "anchor": "Parent",
               "pos": [
                 0.0,
                 324.0
@@ -1199,6 +1622,7 @@
                 "player": {
                   "combat": true,
                   "specs": [],
+                  "weapons": [],
                   "traits": [],
                   "mounts": []
                 },
@@ -1214,6 +1638,7 @@
                 {
                   "enabled": true,
                   "name": "Signet of Spite",
+                  "anchor": "Parent",
                   "pos": [
                     -38.0,
                     0.0
@@ -1221,7 +1646,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": 10621
+                      "Buff": [
+                        10621
+                      ]
                     },
                     "threshold": {
                       "threshold_type": "Present",
@@ -1232,6 +1659,7 @@
                     "player": {
                       "combat": null,
                       "specs": [],
+                      "weapons": [],
                       "traits": [],
                       "mounts": []
                     },
@@ -1254,6 +1682,13 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
                   "conditions": [],
                   "duration_bar": false,
                   "duration_text": false,
