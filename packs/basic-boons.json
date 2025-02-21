@@ -1,7 +1,7 @@
 {
   "schema": "v1",
   "enabled": false,
-  "name": "Baisc Boons Pack",
+  "name": "Basic Boons",
   "anchor": {
     "Screen": "Center"
   },
@@ -121,7 +121,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/b/b4/Quickness.png"
+                "File": "Quickness.png"
               },
               "tint": [
                 1.0,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
+                "File": "Alacrity.png"
               },
               "tint": [
                 1.0,
@@ -223,7 +223,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+                "File": "Might.png"
               },
               "tint": [
                 1.0,
@@ -274,7 +274,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/46/Fury.png"
+                "File": "Fury.png"
               },
               "tint": [
                 1.0,
@@ -367,7 +367,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/6/6c/Protection.png"
+                "File": "Protection.png"
               },
               "tint": [
                 1.0,
@@ -420,7 +420,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/5/53/Regeneration.png"
+                "File": "Regeneration.png"
               },
               "tint": [
                 1.0,
@@ -471,7 +471,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/f/f4/Vigor.png"
+                "File": "Vigor.png"
               },
               "tint": [
                 1.0,
@@ -522,7 +522,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/a/af/Swiftness.png"
+                "File": "Swiftness.png"
               },
               "tint": [
                 1.0,
@@ -616,7 +616,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/4b/Resistance.png"
+                "File": "Resistance.png"
               },
               "tint": [
                 1.0,
@@ -667,7 +667,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
+                "File": "Aegis.png"
               },
               "tint": [
                 1.0,
@@ -718,7 +718,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/a/ae/Stability.png"
+                "File": "Stability.png"
               },
               "tint": [
                 1.0,
@@ -769,7 +769,7 @@
                 }
               },
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/0/06/Resolution.png"
+                "File": "Resolution.png"
               },
               "tint": [
                 1.0,
@@ -910,7 +910,7 @@
               "animation": null,
               "type": "Icon",
               "icon": {
-                "Url": "https://wiki.guildwars2.com/images/2/22/Distortion.png"
+                "File": "Distortion.png"
               },
               "tint": [
                 1.0,
@@ -1075,7 +1075,7 @@
                         }
                       },
                       "icon": {
-                        "Url": "https://wiki.guildwars2.com/images/1/15/Deadly_Blades.png"
+                        "File": "Deadly_Blades.png"
                       },
                       "tint": [
                         1.0,
@@ -1126,7 +1126,7 @@
                         }
                       },
                       "icon": {
-                        "Url": "https://wiki.guildwars2.com/images/e/e7/Fencer%27s_Finesse.png"
+                        "File": "Fencer%27s_Finesse.png"
                       },
                       "tint": [
                         1.0,
@@ -1177,7 +1177,7 @@
                         }
                       },
                       "icon": {
-                        "Url": "https://wiki.guildwars2.com/images/e/e5/Compounding_Power.png"
+                        "File": "Compounding_Power.png"
                       },
                       "tint": [
                         1.0,
@@ -1273,7 +1273,7 @@
                   "animation": null,
                   "type": "Icon",
                   "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/7/7a/Signet_of_the_Ether.png"
+                    "File": "Signet_of_the_Ether.png"
                   },
                   "tint": [
                     1.0,
@@ -1336,7 +1336,7 @@
                   "animation": null,
                   "type": "Icon",
                   "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/c/ce/Signet_of_Illusions.png"
+                    "File": "Signet_of_Illusions.png"
                   },
                   "tint": [
                     1.0,
@@ -1511,7 +1511,7 @@
                   "animation": null,
                   "type": "Icon",
                   "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/b/bd/Soul_Barbs.png"
+                    "File": "Soul_Barbs.png"
                   },
                   "tint": [
                     1.0,
@@ -1574,7 +1574,7 @@
                   "animation": null,
                   "type": "Icon",
                   "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/7/7d/Plague_Sending.png"
+                    "File": "Plague_Sending.png"
                   },
                   "tint": [
                     1.0,
@@ -1672,7 +1672,7 @@
                   "animation": null,
                   "type": "Icon",
                   "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/d/df/Signet_of_Spite.png"
+                    "File": "Signet_of_Spite.png"
                   },
                   "tint": [
                     1.0,

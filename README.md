@@ -2,7 +2,7 @@
 A [Reffect](https://github.com/Zerthox/gw2-reffect) pack.
 
 ## Installation
-Download the [latest version](https://github.com/CaptainZlick/gw2-reffect-pack/releases/latest) and place it inside the `<Guild Wars 2>\addons\reffect\packs` directory.
+Download the [latest version](https://github.com/CaptainZlick/gw2-reffect-pack/releases/latest) and unzip it inside the `<Guild Wars 2>\addons\reffect` directory.
 
 ## General
 Signets that you have to use are displayed in red if they are no longer on cooldown.
